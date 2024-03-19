@@ -1,5 +1,5 @@
 import React from "react";
-import Nested from "../compoent/nestedList/nested";
+import Nested from "../compoents/nested";
 
 export default function App() {
     return (

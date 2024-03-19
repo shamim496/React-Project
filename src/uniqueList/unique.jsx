@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import List from "../compoent/uniqueList/list";
+import List from "../compoents/list";
 
 
 export default function Unique() {

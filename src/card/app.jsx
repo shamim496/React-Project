@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../compoent/card/card";
-import Data from "../compoent/card/json/data.json";
+import Card from "../compoents/card";
+import Data from "../../public/data.json";
 
 function App() {
 

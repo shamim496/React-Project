@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "../compoent/product/product";
+import Product from "../compoents/product";
 import { v4 as uuidv4 } from "uuid";
 
 
@@ -92,7 +92,8 @@ const App = ()=> {
 
             {products.map((product)=> {
                 console.log(product);
-                const {id, title, price, description, category, image} = product;
+                const {id, title, price, description, category, image, rating} = product;
+
                 return (
                     <Product key={id}
                         title={title}
@@ -100,6 +101,8 @@ const App = ()=> {
                         desc={description}
                         category={category}
                         image={image}
+                        rating={rating.count}
+                        count={rating.rate}
                         />
                         )
                     })
