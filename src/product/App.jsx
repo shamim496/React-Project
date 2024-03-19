@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "../compoents/product";
+import Product from "../compoents/com-product/product";
 import { v4 as uuidv4 } from "uuid";
 
 
@@ -89,9 +89,8 @@ const App = ()=> {
     return (
         <div>
             <h1 className="title">BD Store</h1>
-
             {products.map((product)=> {
-                console.log(product);
+                // console.log(product);
                 const {id, title, price, description, category, image, rating} = product;
 
                 return (
@@ -106,7 +105,7 @@ const App = ()=> {
                         />
                         )
                     })
-                    }
+                }
         </div>
     );
 };

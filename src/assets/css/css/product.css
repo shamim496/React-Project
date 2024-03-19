@@ -45,7 +45,7 @@ img {
   font-size: 2rem;
 }
 
-.products {
+#product {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
