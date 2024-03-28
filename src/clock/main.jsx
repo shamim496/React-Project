@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 
 
-const unique = ReactDOM.createRoot(document.getElementById("unique"));
+const state = ReactDOM.createRoot(document.getElementById("state"));
 
-unique.render(
-    <App />
+state.render(
+    <App/>
 );

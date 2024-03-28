@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "../compoents/com-product/product";
+import Product from "../compoents/Product/Product";
 import { v4 as uuidv4 } from "uuid";
 
 

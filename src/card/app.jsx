@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../compoents/card";
+import Card from "../compoents/Card";
 import Data from "../../public/data.json";
 
 function App() {
