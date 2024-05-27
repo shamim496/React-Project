@@ -1,9 +1,11 @@
 import React from 'react';
-import Clock from '../Compontes/Clock/Clock';
+import From from '../Compontes/From/From';
 
 const App = () => {
   return (
-    <Clock />
+    <div>
+      <From />
+    </div>
   )
 }
 

@@ -4,7 +4,7 @@ function USE_STATE2() {
 
     const [count, setCount] = useState(0);
     const inCrement = () => {
-        setCount (count + 1);
+        setCount ((previous) => previous + 1);
     }
 
     const deCrement = () => {
